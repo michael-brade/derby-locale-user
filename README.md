@@ -1,7 +1,7 @@
 Derby Locale User
 =================
 
-A [derby-locale](https://github.com/psirenny/derby-locale) strategy that the selects user's locale preferences.
+A [derby-locale](https://github.com/psirenny/derby-locale) strategy that selects the user's locale preferences.
 
 [![Build Status](https://travis-ci.org/psirenny/derby-locale-user.png?branch=master)](https://travis-ci.org/psirenny/derby-locale-user)
 

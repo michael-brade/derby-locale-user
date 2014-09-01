@@ -1,7 +1,7 @@
 Derby Locale User
 =================
 
-A [derby-locale](https://github.com/psirenny/derby-locale) strategy that selects locales from the user's preferences.
+A [derby-locale](https://github.com/psirenny/derby-locale) strategy that selects user's locale preferences.
 
 [![Build Status](https://travis-ci.org/psirenny/derby-locale-user.png?branch=master)](https://travis-ci.org/psirenny/derby-locale-user)
 
@@ -28,11 +28,11 @@ Options
 
 **key** – The path to the user's locales property. Defaults to `local.locales`.
 
-**name** – The name of the strategy. Defaults to `browser`.
+**name** – The name of the strategy. Defaults to `user`.
 
 **order** – The order of the strategy. Blank by default.
 
-**path** – The path to the locale object. Defaults to ``$locale`.
+**path** – The path to the locale object. Defaults to `$locale`.
 
 Dynamically Update
 ------------------

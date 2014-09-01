@@ -1,0 +1,31 @@
+{
+  "author": "Dennis Torres <djtorres0@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/psirenny/derby-locale-user/issues"
+  },
+  "description": "Add user support to derby-locale.",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.21.4"
+  },
+  "keywords": [
+    "user",
+    "derby",
+    "internationalization",
+    "language",
+    "locale",
+    "localization"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "derby-locale-user",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/psirenny/derby-locale-user.git"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/mocha test"
+  },
+  "version": "0.1.0"
+}

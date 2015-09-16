@@ -14,6 +14,7 @@ module.exports = function (options) {
 
     $user.fetch(function (err) {
       if (err) return next(err);
+      if (!$user.get()) return next();
       var path = options.path + '.strategies.' + options.name;
       var strategy = {};
 

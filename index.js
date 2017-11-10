@@ -7,7 +7,7 @@ module.exports = function (options) {
   if (!options.name) options.name = 'user';
 
   return function (req, res, next) {
-    var model = req.getModel();
+    var model = req.model;
     if (!model) return next();
     if (!req.isAuthenticated()) return next();
     var $user = model.at('users.' + req.user.id);
